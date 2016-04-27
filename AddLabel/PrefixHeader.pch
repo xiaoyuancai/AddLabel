@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  AddLabel
+//
+//  Created by 互动 on 16/4/10.
+//  Copyright (c) 2016年 互动. All rights reserved.
+//
+
+#ifndef AddLabel_PrefixHeader_pch
+#define AddLabel_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIViewExt.h"
+
+
+#define ViewHeight 20
+#define ButtonHeight 15
+
+//屏幕宽、高
+#define SCREEN_WIDTH   [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define BTopSpace (ViewHeight - ButtonHeight)/2
+#define headSpace 8
+#define midleSpace 8
+#define endSpace 4
+
+#define FONTSIZE 13
+#endif
